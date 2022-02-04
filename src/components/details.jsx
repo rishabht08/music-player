@@ -24,7 +24,7 @@ class Details extends React.Component{
         youtube.get('/search' , {
             params: {
                 
-                q: 'sleepless nights'
+                q: 'lofi'
             }
         }).then(res => {
             console.log(res.data.items)
