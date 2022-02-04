@@ -52,6 +52,22 @@ body {
   box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
 }
 
+@media screen and (min-width: 400px) {
+  .c-player {
+    position: absolute;
+    width: 400px;
+    height: 715px;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0px auto;
+    padding: 50px;
+    z-index: 2;
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+  }
+}
+
 .c-player-details .details-img {
   position: relative;
   width: fit-content;
